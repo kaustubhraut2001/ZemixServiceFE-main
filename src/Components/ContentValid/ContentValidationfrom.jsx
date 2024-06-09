@@ -31,8 +31,8 @@ function ContentValidationfrom() {
   const getdatafrom = async () => {
     try {
       const response = await axios.get(
-        "https://zemix-be-production.up.railway.app/api/assignment/getallassignments"
-        // https://zemix-be-production.up.railway.app
+        "https://zemixbe-production.up.railway.app/api/assignment/getallassignments"
+        // https://zemixbe-production.up.railway.app
         // {
         //   userId: userId,
         // }
@@ -57,7 +57,7 @@ function ContentValidationfrom() {
   const submitForm = async () => {
     try {
       const response = await axios.post(
-        "https://zemix-be-production.up.railway.app/api/assignment/addassignment",
+        "https://zemixbe-production.up.railway.app/api/assignment/addassignment",
         {
           userId: userId,
         }
